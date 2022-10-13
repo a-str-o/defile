@@ -1,0 +1,80 @@
+
+./1. Introduction:
+    first we will start with backend i think node js is good for this (see part 1 for more details)
+    for the front end there is ui/ux design ..we want somthing new something stylish fashion for this part i will create a design in figma and illistrator
+    after creating the design lets code it .. react and redux will do a great job (see part 2 for more details)
+
+---part 1    
+./2. Setting Up Environment:
+        -nodejs  - mongodb - react - redux
+
+./3. Let's start with Backend:
+        -Project Setup
+        -Creating First Route
+        -Connecting to MongoDB
+
+./4. Adding Products Resource:
+        -Creating Product Model
+        -Admin - Create & Save Product
+        -Creating Data Seeder
+        -Display all Products
+        -Get Single Product
+        -Admin - Update Product
+        -Admin - Delete Product
+
+./5. Backend Error Handling:
+        -Creating Error Handler Class
+        -Creating Errors Middleware
+        -Production Vs Development Errors
+        -Catching Async Errors
+        -Handling Unhandled Promise Rejection
+        -Handling Uncaught Exceptions
+        -Validation & Mongose ID Error
+
+./6. Adding Filter, Pagination, Search:
+        -Search Products by Keyword
+        -Filter Products
+        -Adding Pagination
+
+./7. Backend Authentication & Authorization:
+        -Generate Forgot Password token
+        -Send Password Recovery Email
+        -Reset New Password.
+        -Handle Wrong JWT Token & Expire JWT Error
+        -Creating User Model
+        -Encrypting Password while Registration.
+        -Generate JSON Web Token.
+        -Login User & Assign Token.
+        -Sending JWT Token in Cookie
+        -Protect Routes from Unauthorized Users.
+        -Logout User.
+        -Authorize User Roles and Permissions.
+        -Adding User in Products.
+
+./8. User Routes:
+        -Show User Profile
+        -Change  Update Password
+        -Update User Profile
+        -Admin - Get All Users & Specific User
+        -Admin - Update & Delete User
+
+./9. Adding Orders Resource:
+        -Creating Order Model
+        -Create & Save Order
+        -Get Single Order & Logged in User Orders
+        -Admin - Get all Order
+        -Admin - Update  Process Order
+        -Admin - Delete Order
+
+./10. User Reviews:
+        -Add New  Update Review
+        -Get all Reviews of Product
+        -Delete Product Review
+---------------------
+
+./20. Deployment:
+        -Connecting to Online DB & Preparing for deploy
+        -Deploying
+------------------
+    this will be version 1.0.0
+    in the update versions will add more things  

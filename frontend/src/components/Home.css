@@ -1,0 +1,235 @@
+.home-container {
+    margin: 0;
+
+}
+
+
+.hero-image {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/img/hero.jpg");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  } 
+  .hero2-image {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/img/hero2.jpg");
+    height: 600px;
+    margin-top: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  } 
+  .hero-text {
+      width: 500px;
+      color: white;
+      margin-left: 50px;
+      position: relative;
+      top: 220px;
+  }
+.button-hero {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    padding: 12px 52px;
+    width: auto;
+}
+
+.button-hero:hover {
+    background-color: #000000;
+    color: #ffffff;
+} 
+.section-container {
+    width: 100%;
+    margin-top: 60px;
+}
+.selection {
+    color: #000000;
+    text-align: center;
+}
+.button-section {
+    background-color: #000000;
+    border: 1px solid #000000;
+    color: #ffffff;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    padding: 12px 52px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rejoindre-container {
+    margin-top: 100px;
+    background-color: whitesmoke;
+    height: fit-content;
+    width: 100%;
+}
+.rejoindre-box {
+    padding: 40px;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.paragraph {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card-under {
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-box {
+    background-color: #ffffff;
+    border: 1px solid #c2c2c2;
+    box-sizing: border-box;
+    display: flex;
+    min-height: 500px;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.card-box h1 {
+    line-height: 1.4285em;
+    align-items:center;
+    font-family: Merriweather Sans;
+    font-size:34px; 
+    font-style:italic; 
+    font-weight:bold; 
+    line-height:45px;
+    margin-bottom: 30px;
+}
+.box-text {
+    height: 220px;
+}
+.box-text p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.essentiel {
+    color:#b1c7aa;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Premium {
+    color:#96c9c2;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Illimitée {
+    color:#9fb1ca;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button-Essentiel {
+    background-color: #b1c7aa;
+    color: #ffffff;
+    padding: 10px;
+    border: #b1c7aa;
+    margin-bottom: 20px;
+}
+.button-Premium{
+    background-color: #96c9c2;
+    color: #ffffff;
+    padding: 10px;
+    border: #b1c7aa;
+    margin-bottom: 20px;
+}
+.button-Illimitée {
+    background-color: #9fb1ca;
+    color: #ffffff;
+    padding: 10px;
+    border: #b1c7aa;
+    margin-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 1324px) {
+    .box-text {
+        height: 350px;
+    }
+    .box-text {
+        height: 280px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .box-text {
+        height: 320px;
+    }
+    .card-box {
+        min-height: 340px;
+    }
+    .hero-image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../assets/img/hero-mobile 2.png");
+        height: 900px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      } 
+      .hero2-image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../assets/img/hero2-mobile.jpeg");
+        height: 900px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 150px;
+      }
+      .hero-text {
+        width: 300px;
+        color: white;
+        margin-left: 30px;
+        position: relative;
+        top: 60px;
+    }
+    .rejoindre-box {
+        padding: 20px;
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (max-width: 1200px) {
+.box-cont{
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+@media only screen and (max-width: 900px) {
+    .box-text {
+        height: 180px;
+    }
+    .card-box {
+        min-height: 340px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .box-text {
+        height: 260px;
+    }
+    .card-box {
+        min-height: 340px;
+    }
+}
