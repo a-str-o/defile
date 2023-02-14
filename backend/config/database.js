@@ -1,12 +1,8 @@
 const mongoose = require('mongoose');
 
  const  connectDatabase = () => {
-    const username = "loca";
-    const password = "loca";
-    const dbname = "dressit";
-
          mongoose.connect(
-             `mongodb+srv://${username}:${password}@cluster0.vh4u5.mongodb.net/${dbname}?retryWrites=true&w=majority` , {
+             `mongodb+srv://gini:gini@cluster0.occxmut.mongodb.net/?retryWrites=true&w=majority` , {
             useNewUrlParser: true,
             useUnifiedTopology: true,
             useCreateIndex: true,
